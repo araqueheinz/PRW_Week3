@@ -39,6 +39,7 @@ const style ={
     boxSizing: 'border-box',
     backgroundImage: ' url(' + require('../images/Lib_1.jpg') + ')',
     backgroundSize: 'cover',
+    width:'1200px',
     height: '100vh',
     margin: '0 auto',
     display: 'flex',
@@ -62,7 +63,10 @@ const style ={
     marginLeft: '10px',
   },
   myNavLink: {
-    
-    
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    fontSize: 12,
+    fontWeight: 'bold',
+    color: 'black',
   }
 }
